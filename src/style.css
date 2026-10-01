@@ -1,0 +1,30 @@
+:root {
+  --text: #3f3d45;
+  --text-muted: #8a8792;
+  --bg: #f6f5f8;
+  --surface: #ffffff;
+  --border: #e3e1e8;
+  --accent: #6d4de0;
+  --accent-bg: rgba(109, 77, 224, 0.1);
+  --done: #2fa66b;
+  --danger: #d6456f;
+
+  font: 16px/150% system-ui, 'Segoe UI', Roboto, sans-serif;
+  color: var(--text);
+  background: var(--bg);
+  color-scheme: light;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+#app {
+  max-width: 640px;
+  margin: 0 auto;
+  padding: 40px 20px 80px;
+}
